@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>History site</title>
+        <link rel="stylesheet" href="style.css"/>
+        <!--JavaScriptファイルの読み込み-->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+      />
+        <script
+          defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js">
+          </script>
+        <script defer type="module" src="main.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="head-wrap">
+                <a class="top-link" href="/"><img src="images/Naryu_cat.png" /></a>  
+            </div>
+            <nav class="nav-menu">
+                <a class="nav-link" href="#profile">Profile</a>
+                <a class="nav-link" href="#video">Video</a>
+            </nav>
+        </header>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/AB.png" /></div>
+            <div class="swiper-slide"><img src="images/CD.png" /></div>
+            <!-- <div class="swiper-slide"><img src="images/photo3.jpg" /></div>
+            <div class="swiper-slide"><img src="images/photo4.jpg" /></div> -->
+          </div>
+          <h1 class="top-title">Let's enjoy Studying!</h1>
+        </div>
+    </body>
+    <section class="profile" id="profile">
+      <h2 class="section-title">Profile</h2>
+      <div class="container">
+        <img class="profile-image" src="images/Naryu_cat.png" alt="profile-photo" />
+        <div class="profile-text">
+          <p>こんにちは！
+            <br>なると申します。
+            <br>普段は学生をしながら、歴史の授業動画を作っています。もしよろしければ、どうぞ！</p>
+        </div>
+      </div>
+    </section>
+    <section class="video" id="video">
+      <h2 class="section-title">Video</h2>
+      <div class="container">
+        <div class="about">
+          
+        </div>
+        <!-- 動画プレイヤー -->
+        <div class="swiper-container slide2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>
+                歴史の授業動画①
+                 <br>
+                 旧石器時代から弥生時代についての内容です
+                 <br>
+                 <br>
+                <a href="https://naryu33.github.io/05_True-or-False/">確認テスト① ←クリック！</a>
+              </p>
+              <iframe
+                src="https://www.youtube.com/embed/9kM5WGGfEjY?si=5F1p1S3G0B-rqMWf" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="swiper-slide">
+              <p>
+                歴史の授業動画②
+                 <br>
+                 古墳時代についての内容です
+                 <br>
+                 <br>
+                <a href="https://naryu33.github.io/06_True-or-False2/">確認テスト② ←クリック！</a>
+              </p>
+              <iframe
+                src="https://www.youtube.com/embed/9UrMddRV7HI?si=5m2CyUaZlkdNtRZQ" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </div>
+            <!-- <div class="swiper-slide">
+              <p>
+                歴史の授業動画③
+                 <br>
+                 飛鳥時代についての内容です
+              </p>
+              <iframe
+                src="" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+              </iframe>
+            </div> -->
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+  
+  <footer>&copy; 2023 NaRU🐈</footer>
+  
+  </section>
+</html>
